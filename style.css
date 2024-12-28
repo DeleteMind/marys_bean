@@ -1,0 +1,52 @@
+body{
+    margin: auto 0;
+}
+
+.zone {
+    cursor: pointer;
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* NAV */
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.push{
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+*{
+    color: #f5f5f6;
+    text-decoration: none;
+}
