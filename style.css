@@ -26,7 +26,7 @@ body{
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: rgb(223, 223, 18);
 }
 
 /* NAV */
@@ -85,4 +85,13 @@ img {
     
 }
 
+.box {
+    background-color: #444;
+    padding: 30px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
 
