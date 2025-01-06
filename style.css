@@ -107,17 +107,23 @@ li {
 /*  COVER */
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(logos/DSC_0148.JPG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     height: 50vh; /* for responsive ecrã */
+    
     
 }
 
 .cover {
     width: 16rem;
     background-color: #444;
+    background-size: 100%;
 }
+
+
 
 /* GRID */
 
