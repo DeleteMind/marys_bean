@@ -13,8 +13,6 @@ body{
     transition: all 0.3s linear;
 }
 
-/* Header */
-
 
 
 /* Colors */
@@ -105,30 +103,37 @@ li {
     font-size: 17px;
 }
 
+
+
+
+
 /*  COVER */
 
 .container {
-    background-image: url(logos/DSC_0148.JPG);
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 70vh; /* for responsive ecrã */
     
-    height: 50vh; /* for responsive ecrã */
-    
+        
     
 }
 
+
 .cover {
-    width: 16rem;
-    background-color: #444;
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
 
 /* GRID */
 
-img {
+.gato {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensures the image fills while maintaining its aspect ratio */
